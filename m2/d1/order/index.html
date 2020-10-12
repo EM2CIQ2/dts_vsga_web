@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <!-- Form -->
+      <div class="container">
+          <div class="row justify-content-sm-center">
+              <div class="col col-sm-5">
+                <h3 class="text-center m-5">Order</h3>
+                  <table class="table table-responsive">
+                      <thead>
+                          <tr>
+                              <th>Nama Menu</th>
+                              <th>Harga (Rp)</th>
+                              <th>Total</th>
+                          </tr>
+                      </thead>
+                      <tbody class="text-center">
+                          <tr>
+                              <td>Bakso Special</td>
+                              <td>150000</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Bakso Special', 15000)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td>Mie Ayam</td>
+                              <td>10000</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Mie Ayam', 10000)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td>Es Teh</td>
+                              <td>6000</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Es Teh', 6000)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td>Teh Anget</td>
+                              <td>5000</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Teh Anget', 5000)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td>Jeruk Manis</td>
+                              <td>6500</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Jeruk Manis', 6500)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td>Kopi</td>
+                              <td>5000</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Kopi', 5000)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td>Air Mineral</td>
+                              <td>2500</td>
+                              <td><button type="button" class="btn btn-primary btn-lg btn-block" onclick="add('Air Mineral', 2500)">😋 Add to Order</button></td>
+                          </tr>
+                          <tr>
+                              <td colspan="2"><strong>Total (Rp)</strong></td>
+                              <td id="total_price">0</td>
+                          </tr>
+                          <tr>
+                              <td colspan="3"><button type="button" class="btn btn-danger btn-lg btn-block" onclick="reset()">⚠ Reset</button></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
