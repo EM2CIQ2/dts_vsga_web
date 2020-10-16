@@ -61,15 +61,6 @@ require('templates/navigation.php');
             </tr>
             <?php
           }
-
-          // while ($product = mysqli_fetch_array($query)) {
-          //   echo "<tr>";
-          //   echo "<td>" . $product['no'] . "</td>";
-          //   echo "<td>" . $product['nama_merk'] . "</td>";
-          //   echo "<td>" . $product['warna'] . "</td>";
-          //   echo "<td>" . $product['jumlah'] . "</td>";
-          //   echo "</tr>";
-          // }
           ?>
         </tbody>
       </table>
